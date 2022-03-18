@@ -67,7 +67,7 @@ section .main .searchBox
 }
 section .main .searchBox .search
 {
-    width: 100%;
+    width: 90%;
     padding: 13px;
     padding-left: 45px;
     padding-right: 60px;
@@ -80,6 +80,17 @@ section .main .searchBox .icons
 {
     position: absolute;
     top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .searchBox .imageSearchicons
+{
+    position: absolute;
+    top: 10%;
     width: 100%;
     display: flex;
     padding: 12px 20px;
